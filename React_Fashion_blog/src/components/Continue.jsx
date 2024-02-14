@@ -2,7 +2,7 @@ import React from 'react'
 
 const Continue = (props) => {
   return (
-    <div>
+    <div className='continue'>
       {props.continue}
     </div>
   )

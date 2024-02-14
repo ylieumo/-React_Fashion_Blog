@@ -2,9 +2,9 @@ import React from 'react'
 
 const SubTitle = () => {
   return (
-    <div>
+    <div >
     
-<h2>{props.subtitle}</h2>
+<h2 className = "subtitle">{props.subtitle}</h2>
     </div>
   )
 }

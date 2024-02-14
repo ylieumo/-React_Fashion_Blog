@@ -2,7 +2,7 @@ import React from 'react'
 
 const Date = (props) => {
   return (
-    <div>
+    <div className='date'>
       <p>{props.date}</p>
     </div>
   )

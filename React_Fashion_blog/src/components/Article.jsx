@@ -2,7 +2,7 @@ import React from 'react'
 
 const Article = (props) => {
   return (
-    <div>
+    <div className='article'>
         <p>{props.date}</p>
         <p>{props.description}</p>
         <img src={props.src} alt={props.description} />
